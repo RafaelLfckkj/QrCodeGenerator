@@ -10,6 +10,7 @@ import software.amazon.awssdk.services.s3.model.PutObjectRequest;
 
 @Component
 public class S3StrorageAdapter implements StoragePort {
+
     private final S3Client s3Client;
     private final String bucketName;
     private final String region;
